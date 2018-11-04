@@ -5,10 +5,17 @@
   "license": "NONE",
   "dependencies": {
     "classnames": "^2.2.6",
+    "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.11",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "react-immutable-proptypes": "^2.1.0",
+    "react-redux": "^5.1.0",
+    "react-scripts": "2.0.5",
+    "redux": "^4.0.1",
+    "redux-immutablejs": "^0.0.8",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

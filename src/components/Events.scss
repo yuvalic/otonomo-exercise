@@ -1,0 +1,31 @@
+$H3: 26px;
+
+.events-body {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #F2F2F2;
+  .events-header {
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    .title {
+      font-size: $H3;
+      font-weight: 500;
+    }
+    .checkbox-label {
+      margin: 10px 0;
+    }
+  }
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex: 1;
+    margin: 20px 0 0 20px;
+    padding: 20px;
+  }
+  .car-event {
+    margin: 10px 0;
+  }
+}
